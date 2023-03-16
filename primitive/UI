@@ -1,9 +1,7 @@
 --[[ not made by me]]
-
---[[
-UI was NOT made by me
-]]
-
+if game.CoreGui:FindFirstChild('Atlas') then
+game.CoreGui:FindFirstChild('Atlas'):Remove()
+end
 
 local VERSION = "1.2"
 
